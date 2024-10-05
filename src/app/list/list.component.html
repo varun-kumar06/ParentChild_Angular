@@ -1,0 +1,20 @@
+<h2>list works!</h2>
+<table >
+    <thead class="lists">
+        <tr>
+            <th>Author</th>
+            
+            <th>Name</th>
+            
+            <th>Price</th>
+        </tr>
+    </thead>
+
+<tbody class="listdata">
+    <tr *ngFor="let b of books">
+        <td>{{b.author}}</td>
+        <td> {{b.bookName}}</td>
+        <td> {{b.price}} </td>
+    </tr>
+</tbody>
+</table>
